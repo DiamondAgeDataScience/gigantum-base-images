@@ -1,0 +1,29 @@
+description: A Base containing Python 3.7, JupyterLab, and common data science packages
+  pre-installed
+development_tools:
+- jupyterlab
+id: diamondage-python3-base
+image:
+  namespace: diamondagedatascience
+  repository: diamondage-python3-base
+  server: hub.docker.com
+  tag: 893ac4de76-2019-11-19
+languages:
+- python3
+license: MIT
+name: Diamond Age Data Science Base Python3 image
+os_class: ubuntu
+os_release: '18.04'
+package_managers:
+- apt: null
+- pip: null
+- conda3: null
+readme: A Base containing Python 3.7, JupyterLab, and common data science packages
+  pre-installed
+revision: 1
+schema: 1
+tags:
+- ubuntu
+- python3
+- jupyterlab
+url: null
