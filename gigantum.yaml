@@ -1,7 +1,7 @@
-id: gigantum-official
-name: Gigantum Official Base Images
-url: https://github.com/gigantum/base-images.git
+id: diamondage-official
+name: Diamond Age Official Base Images
+url: https://bitbucket.org/diamondagedatascience/gigantum-base-images.git
 maintainer:
-  name: Gigantum
-  email: support@gigantum.com
-  url: https://gigantum.com
+  name: Diamond Age Data Science
+  email: chris@diamondage.com
+  url: https://diamondage.com
