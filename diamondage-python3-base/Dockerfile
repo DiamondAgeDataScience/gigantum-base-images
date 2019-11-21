@@ -79,7 +79,6 @@ RUN conda install --quiet --yes nodejs=10.15.3 && \
 # Set up additional widgets
 RUN jupyter labextension install jupyterlab_bokeh --no-build && \
     jupyter labextension install @jupyterlab/geojson-extension --no-build && \
-    jupyter labextension install @jupyterlab/plotly-extension --no-build && \
     jupyter labextension install plotlywidget --no-build && \
     jupyter labextension install jupyterlab-plotly --no-build && \
     jupyter labextension install @karosc/jupyterlab_dracula --no-build && \
